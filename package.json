@@ -1,0 +1,47 @@
+{
+  "name": "io.cordova.ctcordova",
+  "displayName": "ctcordova",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "clevertap-cordova": "github:CleverTap/clevertap-cordova",
+    "cordova-android": "^10.1.2",
+    "cordova-plugin-app-version": "^0.1.14",
+    "cordova-plugin-console": "^1.1.0",
+    "cordova-plugin-device": "2.0.2",
+    "cordova-plugin-ionic-keyboard": "^2.0.5",
+    "cordova-plugin-ionic-webview": "^5.0.0",
+    "cordova-plugin-splashscreen": "5.0.2",
+    "cordova-plugin-statusbar": "2.4.2"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "clevertap-cordova": {
+        "CLEVERTAP_ACCOUNT_ID": "TEST-489-7K5-676Z",
+        "CLEVERTAP_TOKEN": "TEST-53a-cb4"
+      },
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-ionic-webview": {},
+      "cordova-plugin-ionic-keyboard": {},
+      "cordova-plugin-app-version": {},
+      "cordova-plugin-console": {}
+    }
+  },
+  "dependencies": {
+    "@awesome-cordova-plugins/clevertap": "^6.3.0"
+  }
+}

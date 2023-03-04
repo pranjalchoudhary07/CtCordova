@@ -1,0 +1,7 @@
+{
+  "name": "CTCordova",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "custom"
+}
